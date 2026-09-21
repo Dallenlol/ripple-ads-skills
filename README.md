@@ -43,6 +43,13 @@ The server keeps a private notebook per person per workspace (`recall`, `remembe
 `forget`). The skill tells the assistant to read it first and write a session summary last.
 You can see and delete every note under Dashboard → Connect → Assistant memory.
 
+## SEO tools the assistant can read
+
+Dashboard → SEO gives every workspace a site audit (one a week free, one a day
+paid) and paid plans keyword research and daily rank tracking. The assistant
+reads them with `get_seo_audit` and `get_rankings`; audits and tracking are
+started from the dashboard, not from chat.
+
 ## Goes well with
 
 - [claude-ads](https://github.com/Dallenlol/claude-ads) (fork of
