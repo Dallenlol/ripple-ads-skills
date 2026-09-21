@@ -1,0 +1,22 @@
+{
+  "name": "ripple-ads",
+  "owner": { "name": "Ripple Strategies", "url": "https://ads.ripplestrategies.ca" },
+  "metadata": {
+    "description": "Skills, slash commands and the connector for the Ripple Ads MCP server (Meta + Google Ads with guardrails).",
+    "version": "2026.9.21"
+  },
+  "plugins": [
+    {
+      "name": "ripple-ads",
+      "source": "./",
+      "description": "Work your Meta and Google Ads accounts through the Ripple Ads MCP server — skill, seven workflow commands, connector.",
+      "version": "2026.9.21",
+      "author": { "name": "Ripple Strategies" },
+      "homepage": "https://ads.ripplestrategies.ca/connect",
+      "repository": "https://github.com/Dallenlol/ripple-ads-skills",
+      "license": "MIT",
+      "category": "marketing",
+      "tags": ["mcp", "google-ads", "meta-ads", "paid-media", "advertising"]
+    }
+  ]
+}

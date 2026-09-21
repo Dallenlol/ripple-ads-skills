@@ -1,0 +1,13 @@
+{
+  "name": "ripple-ads",
+  "version": "2026.9.21",
+  "description": "Work your Meta and Google Ads accounts through the Ripple Ads MCP server: a skill that knows the tools and the guardrails, seven slash-command workflows (catch me up, weekly review, budget pacing, search-term clean-up, what changed, leads pulse, save session), and the connector itself.",
+  "author": { "name": "Ripple Strategies", "url": "https://ads.ripplestrategies.ca" },
+  "homepage": "https://ads.ripplestrategies.ca/connect",
+  "repository": "https://github.com/Dallenlol/ripple-ads-skills",
+  "license": "MIT",
+  "keywords": ["mcp", "google-ads", "meta-ads", "paid-media", "claude-code-skill", "agent-skills"],
+  "skills": ["./skills/"],
+  "commands": ["./commands/"],
+  "mcpServers": "./.mcp.json"
+}
