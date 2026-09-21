@@ -38,6 +38,7 @@ Search", "client reviews budgets on Mondays"). Never store a lead's name, phone 
 | `get_breakdown` | one campaign by device, placement, age_gender, region, hour, conversion_category, or `search_term` (Google) |
 | `get_pending_approvals` | changes Ripple proposed and is waiting on |
 | `get_leads_summary` | lead counts and statuses — never contact details |
+| `get_seo_audit` | the latest on-page SEO audit of the customer's website (score, findings with fixes, worst pages); audits are started under Dashboard → SEO, not from chat |
 
 ## Writes (need a read-and-change token and a live account)
 
